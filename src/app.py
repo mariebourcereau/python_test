@@ -16,3 +16,7 @@ Permet de passer la première lettre en capitale
 
 # r = capital_case('marie')
 # print(r)
+
+def test_capital_case():
+    resultat = capital_case("marie")
+    assert resultat == 'Marie'
